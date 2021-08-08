@@ -1,4 +1,4 @@
-#+ endpoint https://w3id.org/oc/index/sparql
+#+ endpoint http://opencitations.net/index/sparql
 
 PREFIX cito: <http://purl.org/spar/cito>
 SELECT ?cited 
