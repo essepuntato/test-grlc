@@ -1,0 +1,8 @@
+#+ endpoint: https://w3id.org/oc/index/sparql
+#+ defaults:
+#+   - citing: http://dx.doi.org/10.1162/qss_a_00023
+PREFIX cito: <http://purl.org/spar/cito/>
+SELECT ?cited 
+WHERE {
+  ?_citing_iri ^cito:hasCitingEntity/cito:hasCitedEntity ?cited
+}
